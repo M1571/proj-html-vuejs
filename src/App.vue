@@ -1,22 +1,64 @@
+// ------------------------------------
+// HTML
+
 <template>
+
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <!-- <Nome /> -->
+    
+
   </div>
+
 </template>
 
+// ------------------------------------
+// JS
+
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+
+// import Nome from 'percorso file'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld
+    // Nome
   }
 }
 </script>
 
+// ------------------------------------
+// CSS
+
 <style lang="scss">
+
+// @import 'percorso file';
+@import './assets/scss/_mixins.scss';
+@import './assets/scss/_varcolori.scss';
+
+// ------------------------------------
+// CSS COMMON
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none; 
+  color: currentColor;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+// ------------------------------------
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -26,3 +68,5 @@ export default {
   // margin-top: 60px;
 }
 </style>
+
+// ------------------------------------
