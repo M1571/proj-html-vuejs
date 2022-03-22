@@ -15,16 +15,17 @@
                     <img src="../assets/img/01_Avada_Pet_Supplies/dark-pet-logo-2x.png" alt="logo-pet-supplies">
                 </figure>
 
-                <input type="search" name="" id="">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="search" placeholder="Search...">
 
                 <p>Questions?<span> Call us : 1.800.123.4567</span></p>
 
                 <ul>
                     <li>
-                        Icona1<i class="fa-regular fa-bag-shopping"></i>
+                        <i class="fa-solid fa-bag-shopping"></i>
                     </li>
                     <li>
-                        Icona2<i class="fa-regular fa-user"></i>
+                        <i class="fa-solid fa-user"></i>
                     </li>
                 </ul>
 
@@ -115,7 +116,7 @@ header {
     // border: 3px solid royalblue;
     width: 864px;
     min-height: 33px;
-    margin: 0 auto;
+    // margin: 0 auto;
     display: flex;
     justify-content: center;
 
@@ -125,15 +126,29 @@ header {
         // border: 1px solid red;
         align-self: center;
         width: 100%;
+        position: relative;
 
         img {
             width: 108px;
         }
 
+        button {
+            border: 0;
+            background: 0;
+            font-size: 9px;
+            position: absolute;
+            transform: translate( -1735%, 50%);
+            color: darkgray;
+        }
+
         input {
-            width: 166px;
+            width: 156px;
+            padding: 0 23px;
             height: 20px;
-            border-radius: 9px;       
+            border-radius: 9px; 
+            font-size: 0.6rem; 
+            background: #F3F4F3;
+            border: 0;     
         }
 
         span {
@@ -160,7 +175,7 @@ header {
     border-top: 1px solid lightgray;
     width: 864px;
     min-height: 29px;
-    margin: 0 auto;
+    // margin: 0 auto;
     display: flex;
     justify-content: center;
     // align-content: center;

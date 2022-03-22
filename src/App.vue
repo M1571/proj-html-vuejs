@@ -46,6 +46,7 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  @include container;
 } 
 
 img {
@@ -72,6 +73,7 @@ ol, ul {
   // margin-top: 60px;
   font-weight: 700;
 }
+
 </style>
 
 // ------------------------------------
