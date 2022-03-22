@@ -6,6 +6,7 @@
   <div id="app">
   <!-- <Nome /> -->
     <Header />
+    <Section1 />
   </div>
 
 </template>
@@ -17,12 +18,14 @@
 
 // import Nome from 'percorso file'
 import Header from './components/HeaderMain.vue'
+import Section1 from './components/FirstSection.vue'
 
 export default {
   name: 'App',
   components: {
     // Nome,
     Header,
+    Section1,
   }
 }
 </script>
