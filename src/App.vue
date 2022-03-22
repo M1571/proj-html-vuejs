@@ -5,8 +5,7 @@
 
   <div id="app">
   <!-- <Nome /> -->
-    
-
+    <Header />
   </div>
 
 </template>
@@ -17,11 +16,13 @@
 <script>
 
 // import Nome from 'percorso file'
+import Header from './components/HeaderMain.vue'
 
 export default {
   name: 'App',
   components: {
-    // Nome
+    // Nome,
+    Header,
   }
 }
 </script>
@@ -66,6 +67,7 @@ ol, ul {
   // text-align: center;
   // color: #2c3e50;
   // margin-top: 60px;
+  font-weight: 700;
 }
 </style>
 
