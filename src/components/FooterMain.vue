@@ -11,10 +11,10 @@
         <div class="footer-top">
 
             <div class="card-wrapper">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div class="card-item uno">1</div>
+                <div class="card-item due">2</div>
+                <div class="card-item tre">3</div>
+                <div class="card-item tuscè">4</div>
             </div>
 
             <!-- ------------------------------------ -->
@@ -102,6 +102,12 @@ export default {
             border: 1px solid royalblue;
             width: 616px;
             height: 164px;
+            display: flex;
+
+            .card-item {
+                width: calc( 616px / 4);
+                border: 1px solid red;
+            }
         }
 
         // ------------------------------------
