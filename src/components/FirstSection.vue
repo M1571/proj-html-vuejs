@@ -29,13 +29,13 @@
         <!-- BACKGROUND -->
 
         <div class="section-background">
-            <div>
+            <div class="text-background">
                 <p>FIND THE BEST ANIMAL SUPPLIES</p>
                 <h2>We know animals are a</h2>
                 <h2>part of your family, let us</h2>
                 <h2>help take care of them.</h2>
             </div>
-            <div>
+            <div class="button-container">
                 <button>Learn more about us</button>
             </div>
         </div>
@@ -132,9 +132,41 @@ export default {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        
         height: 347px;
         width: 864px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;        
+
+        .text-background {
+            color: white;
+            // border: 1px solid red;
+            margin-left: 120px;
+        }
+
+        p {
+            font-size: 0.5rem;
+            margin-bottom: 15px;
+        }
+
+        .button-container {
+            // border: 1px solid royalblue;
+            margin-left: 120px;
+        }
+
+        button {
+            border-radius: 10px;
+            font-size: 0.5rem;
+            padding: 6px 15px;
+            border: 0;
+            font-weight: 550;
+        }
+
+        button:hover {
+            background: $main-green;
+            color: white;
+        }
     }
 
     // ------------------------------------
