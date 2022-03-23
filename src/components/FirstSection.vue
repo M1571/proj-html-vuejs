@@ -112,7 +112,7 @@ export default {
             }
 
             .flex-tre {
-             display: flex;
+                display: flex;
                 gap: 5px;
                 align-items: center;
             }
