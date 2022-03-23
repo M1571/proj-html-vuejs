@@ -3,12 +3,9 @@
 
 <template>
     
-    <footer class="footer">
+    <section class="section-due">
 
-        <div class="footer-top"></div>
-        <div class="footer-bottom"></div>
-
-    </footer>
+    </section>
 
 </template>
 
@@ -32,18 +29,9 @@ export default {
 
 @import '../assets/scss/_varcolori.scss';
 
-.footer {
+.section-due {
     width: 864px;
-
-    .footer-top {
-        height: 344px;
-        background-color: $main-green;
-    }
-
-    .footer-bottom {
-        height: 36px;
-        background-color: black;
-    }
+    height: 10px;
 }
 
 </style>
