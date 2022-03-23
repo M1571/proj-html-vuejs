@@ -44,7 +44,12 @@
         <!-- BOTTOM -->
 
         <div class="intern-section-bottom">
-            <p>cacca</p>
+            <figure>
+                <img src="../assets/img/03_Get_25_OFF/food-transparent-5.png" alt="">
+            </figure>
+            <div class="text-off">
+                <p>Get $25 OFF your first purchase of our homemade pet food! <span><a href="#">Visit the shop</a></span></p>
+            </div>
         </div>
 
     <!-- ------------------------------------ -->
@@ -177,6 +182,38 @@ export default {
         background-size: 20%;
         height: 64px;
         width: 864px;
+        position: relative;
+
+        img {
+            height: 50px;
+            // border: 1px solid red;
+            margin-top: 20px;
+            margin-left: 50px;
+            position: absolute;
+            transform: translate( 160%, -12%);
+        }
+
+        .text-off {
+            // border: 1px solid red;
+            display: flex;
+            // justify-content: center;
+            // align-items: center;
+            padding: 25px 0;
+            margin-left: 90px;
+        }
+
+        p {
+            color: white;
+            font-size: 0.6rem;
+        }
+
+        a {
+            color: rgb(223, 223, 223); 
+            text-decoration: underline;
+            font-size: 0.5rem;
+            padding: 0 10px; 
+            align-items: center;
+        }
     }
 
     // ------------------------------------
