@@ -88,40 +88,38 @@ export default {
         // margin: 0 auto;
         font-size: 0.5rem;
 
-    .elements-flex {
-        // border: 1px solid red;
-        display: flex;
-        color: white;
-        padding-top: 9px;
-
-        .flex-uno {
+        .elements-flex {
+            // border: 1px solid red;
             display: flex;
-            gap: 5px;
-            align-items: center;
-        }
-
-        .flex-due {
-            display: flex;
-            gap: 5px;
-            align-items: center;
-        }
-
-        .flex-tre {
-            display: flex;
-            gap: 5px;
-            align-items: center;
-        }
-
-        }
-
-        span {
             color: white;
-        }
+            padding-top: 9px;
 
-        p {
-            color: gray;
-        }
+            .flex-uno {
+                display: flex;
+                gap: 5px;
+                align-items: center;
+            }
 
+            .flex-due {
+                display: flex;
+                gap: 5px;
+                align-items: center;
+            }
+
+            .flex-tre {
+             display: flex;
+                gap: 5px;
+                align-items: center;
+            }
+
+            span {
+                color: white;
+            }
+
+            p {
+                color: gray;
+            }
+        }
     }
 
     // ------------------------------------
