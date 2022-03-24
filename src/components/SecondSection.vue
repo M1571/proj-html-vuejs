@@ -10,36 +10,12 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatum dolore at possimus.</p>
         </div>
         <div class="sec-2">
-            <div class="card">
+            <div v-for="(el,i) in cards" class="card" :key="i">
                 <figure>
-                    <img src="../assets/img/04_Browse_by_category/product-9-600x600.jpg" width="150" alt="">
+                    <img :src="el.img" width="150" alt="">
                 </figure>
                 <div>
-                    <p>Bed (1)</p>
-                </div>
-            </div>
-            <div class="card">
-                <figure>
-                    <img src="../assets/img/04_Browse_by_category/product-3-600x600.jpg" width="150" alt="">
-                </figure>
-                <div>
-                    <p>Food (6)</p>
-                </div>
-            </div>
-            <div class="card">
-                <figure>
-                    <img src="../assets/img/04_Browse_by_category/product-2-600x600.jpg" width="150" alt="">
-                </figure>
-                <div>
-                    <p>Toys (6)</p>
-                </div>
-            </div>
-            <div class="card">
-                <figure>
-                    <img src="../assets/img/04_Browse_by_category/product-4-600x600.jpg" width="150" alt="">
-                </figure>
-                <div>
-                    <p>Transport (6)</p>
+                    <p>{{el.text}}</p>
                 </div>
             </div>
         </div>
@@ -59,7 +35,28 @@
 
 export default {
        
-       
+  data() {
+        return {
+            cards: [
+                {
+                    img: require(`../assets/img/04_Browse_by_category/product-9-600x600.jpg`),
+                    text: 'Bed (1)',
+                },  
+                {
+                    img: require(`../assets/img/04_Browse_by_category/product-3-600x600.jpg`),
+                    text: 'Food (6)',
+                },
+                {
+                    img: require(`../assets/img/04_Browse_by_category/product-2-600x600.jpg`),
+                    text: 'Toys (6)',
+                },
+                {
+                    img: require(`../assets/img/04_Browse_by_category/product-4-600x600.jpg`),
+                    text: 'Transport (6)',
+                },    
+            ]
+        }
+    }      
        
 }
 
