@@ -11,10 +11,29 @@
         <div class="footer-top">
 
             <div class="card-wrapper">
-                <div class="card-item uno">1</div>
-                <div class="card-item due">2</div>
-                <div class="card-item tre">3</div>
-                <div class="card-item tuscè">4</div>
+                <div class="card-item uno">
+                    <img src="../assets/img/14_Avada_Pet_Supplies/mobile-light-pet-logo-2x.png" width="104px" alt="">
+                    <p>1234 Avada Avenue Avadaville</p>
+                    <p>info@your-company.com</p>
+                    <p>Call us: (1) 234 5678</p>
+                </div>
+                <div class="card-item due">
+                    <h5>Shop by brand</h5>
+                    <p>Bed</p>
+                    <p>Food</p>
+                    <p>Toys</p>
+                    <p>Transport</p>
+                </div>
+                <div class="card-item tre">
+                    <h5>Useful links</h5>
+                    <p>My account</p>
+                    <p>Orders</p>
+                    <p>Checkout</p>
+                    <p>Cart</p>
+                </div>
+                <div class="card-item tuscè">
+
+                </div>
             </div>
 
             <!-- ------------------------------------ -->
@@ -99,21 +118,54 @@ export default {
         gap: 30px;
 
         .card-wrapper {
-            border: 1px solid royalblue;
+            border-bottom: 1px solid rgba(212, 212, 212, 0.1);
             width: 616px;
             height: 164px;
             display: flex;
 
             .card-item {
                 width: calc( 616px / 4);
+                height: 136px;
                 border: 1px solid red;
+                color: white;
+                
+                p {
+                    font-size: 0.5rem;
+                    padding: 1px;
+                }
+            }
+
+            .uno {
+                img {
+                    margin-bottom: 10px;
+                }
+            }
+
+            .due {
+                h5 {
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    margin-bottom: 10px;
+                }
+            }
+
+            .tre {
+                h5 {
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    margin-bottom: 10px;
+                }
             }
         }
 
         // ------------------------------------
 
         .about-wrapper {
-            border: 1px solid red;
+            // border: 1px solid red;
             display: flex;
             flex-direction: column;
             gap: 20px;
