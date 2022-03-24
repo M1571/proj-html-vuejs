@@ -3,7 +3,7 @@
 
 <template>
     
-    <section class="section-due">
+    <section class="section-cinque">
 
     </section>
 
@@ -29,9 +29,9 @@ export default {
 
 @import '../assets/scss/_varcolori.scss';
 
-.section-due {
+.section-cinque {
     width: 864px;
-    height: 10px;
+    height: 684px;
 }
 
 </style>

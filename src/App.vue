@@ -7,7 +7,7 @@
   <!-- <Nome /> -->
     <Header />
     <Section1 />
-    <Section2 />
+    <Section5 />
     <Footer />
   </div>
 
@@ -21,7 +21,7 @@
 // import Nome from 'percorso file'
 import Header from './components/HeaderMain.vue'
 import Section1 from './components/FirstSection.vue'
-import Section2 from './components/SecondSection.vue'
+import Section5 from './components/FifthSection.vue'
 import Footer from './components/FooterMain.vue'
 
 export default {
@@ -30,7 +30,7 @@ export default {
     // Nome,
     Header,
     Section1,
-    Section2,
+    Section5,
     Footer,
   }
 }
