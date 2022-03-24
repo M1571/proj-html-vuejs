@@ -195,7 +195,7 @@ header {
                 
             }
 
-            ul:hover {
+            li:hover {
                 color: black;
             }
         }

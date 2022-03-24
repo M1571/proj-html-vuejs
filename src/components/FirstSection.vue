@@ -164,6 +164,7 @@ export default {
             padding: 6px 15px;
             border: 0;
             font-weight: 550;
+            cursor: pointer;
         }
 
         button:hover {

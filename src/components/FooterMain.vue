@@ -31,10 +31,12 @@
                     <p>Checkout</p>
                     <p>Cart</p>
                 </div>
-                <div class="card-item tuscè">
-
+                <div class="card-item tuscee">
+                    <h6>Subscribe to our newsletter</h6>
+                    <input type="email" placeholder="Insert your email ...*">
+                    <button>Subscribe</button>
                 </div>
-            </div>
+            </div>  
 
             <!-- ------------------------------------ -->
 
@@ -126,7 +128,7 @@ export default {
             .card-item {
                 width: calc( 616px / 4);
                 height: 136px;
-                border: 1px solid red;
+                // border: 1px solid red;
                 color: white;
                 
                 p {
@@ -158,6 +160,45 @@ export default {
 
                 p {
                     margin-bottom: 10px;
+                }
+            }
+
+            .tuscee {
+                height: 135px;
+                width: 135px;
+                background-color: #264229;
+                background-image: url('../assets/img/00_Zampe_background/bg-transparent-3.png');
+                // background-position: center;
+                background-size: 140%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 15px;
+                text-align: center;
+
+                input {
+                    width: 105px;
+                    padding: 6px 15px;
+                    // height: 20px;
+                    border-radius: 10px; 
+                    font-size: 0.5rem; 
+                    background: #F3F4F3;
+                    border: 0;     
+                }
+
+                button {
+                    width: 105px;
+                    border-radius: 10px;
+                    font-size: 0.5rem;
+                    padding: 6px 15px;
+                    border: 0;
+                    font-weight: 550;
+                }
+
+                button:hover {
+                    background: #3C6F42;
+                    color: white;
+                    cursor: pointer;
                 }
             }
         }
