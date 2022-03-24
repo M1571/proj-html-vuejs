@@ -139,6 +139,7 @@ header {
             position: absolute;
             transform: translate( -1735%, 50%);
             color: darkgray;
+            cursor: pointer;
         }
 
         input {
@@ -150,6 +151,7 @@ header {
             background: #F3F4F3;
             border: 0;     
         }
+
 
         span {
             color: #A2A2A2;
@@ -163,6 +165,10 @@ header {
             display: flex;
             gap: 7px;
             align-self: center;
+
+            li {
+                cursor: pointer;
+            }
         }
     }
 }

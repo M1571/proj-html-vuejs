@@ -235,6 +235,10 @@ export default {
                 flex-direction: row;
                 font-size: 0.7rem;
                 gap: 12px;
+
+                li {
+                    cursor: pointer;
+                }
             }
         }  
     }
