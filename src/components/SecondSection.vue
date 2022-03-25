@@ -406,7 +406,7 @@ export default {
             }
         }
 
-        .smcards:hover, .smcards:focus, .smcards:active, {
+        .smcards:hover, .smcards:focus, .smcards:active {
             -webkit-transform: scale(1.1);
             transform: scale(1.2);
         }
