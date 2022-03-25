@@ -8,6 +8,7 @@
     <Header />
     <Section1 />
     <Section2 />
+    <Section3 />
     <Section5 />
     <Footer />
   </div>
@@ -23,6 +24,7 @@
 import Header from './components/HeaderMain.vue'
 import Section1 from './components/FirstSection.vue'
 import Section2 from './components/SecondSection.vue'
+import Section3 from './components/ThirdSection.vue'
 import Section5 from './components/FifthSection.vue'
 import Footer from './components/FooterMain.vue'
 
@@ -33,6 +35,7 @@ export default {
     Header,
     Section1,
     Section2,
+    Section3,
     Section5,
     Footer,
   }

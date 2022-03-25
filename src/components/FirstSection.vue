@@ -165,11 +165,22 @@ export default {
             border: 0;
             font-weight: 550;
             cursor: pointer;
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
         }
 
-        button:hover {
+        button:hover, button:focus, button:active {
             background: $main-green;
             color: white;
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+            -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+            transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
         }
     }
 
