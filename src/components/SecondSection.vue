@@ -19,8 +19,45 @@
                 </div>
             </div>
         </div>
-        <div class="sec-3"></div>
-        <div class="sec-4"></div>
+        <div class="sec-3">
+            <div class="paw-card">
+                <div>
+                    <h4>Kibble</h4>
+                    <p>Dry dog food</p>
+                </div>
+                <figure>
+                    <img src="../assets/img/05_Kibble_Moist_Frozen/food-transparent-18-400x420.png" width="115" alt="">
+                </figure>
+                <button>Shop dry food</button>
+            </div>
+            <div class="paw-card">
+                <div>
+                    <h4>Moist</h4>
+                    <p>Canned dog food</p>
+                </div>
+                <figure>
+                    <img src="../assets/img/05_Kibble_Moist_Frozen/food-transparent-17-400x420.png" width="115" alt="">
+                </figure>
+                <button>Shop moist food</button>
+            </div>
+            <div class="paw-card">
+                <div>
+                    <h4>Frozen</h4>
+                    <p>Freeze-Dried dog food</p>
+                </div>
+                <figure>
+                    <img src="../assets/img/05_Kibble_Moist_Frozen/food-transparent-16-400x420.png" width="115" alt="">
+                </figure>
+                <button>Shop forzen food</button>
+            </div>
+        </div>
+        <div class="sec-4">
+            <div class="background-cat">
+                <p>FIND THE BEST ANIMAL SUPPLIES</p>
+                <h2>New arrivals weekly</h2>
+                <button>Learn more about</button>
+            </div>
+        </div>
         <div class="sec-5"></div>
         <div class="sec-6"></div>
 
@@ -114,12 +151,92 @@ export default {
         border: 1px solid royalblue;
         height: 295px;
         width: 634px;
+        display: flex;
+
+        .paw-card {
+            height: 275px;
+            width: 200px;
+            background-color: $main-green;
+            background-image: url('../assets/img/00_Zampe_background/bg-transparent-3.png');
+            background-size: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 15px;
+
+            h4 {
+                color: white;
+                text-align: center;
+                margin-bottom: 5px;
+            }
+
+            p {
+                color: #338C51;
+                font-size: 0.6rem;
+                text-align: center;
+            }
+
+            button {
+                width: 85px;
+                border-radius: 10px;
+                font-size: 0.4rem;
+                padding: 6px 10px;
+                border: 0;
+                font-weight: 550;
+            }
+
+            button:hover {
+                background: #3C6F42;
+                color: white;
+                cursor: pointer;
+            }
+        }
     }
 
     .sec-4 {
         border: 1px solid royalblue;
         height: 256px;
         width: 634px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .background-cat {
+            height: 236px;
+            width: 622px;
+            background-image: url('../assets/img/06_New_arrivals_weekly/banner-3-2x-scaled.jpg');
+            background-position: center;
+            background-size: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 15px;
+
+            button {
+                width: 85px;
+                border-radius: 10px;
+                font-size: 0.4rem;
+                padding: 6px 10px;
+                border: 0;
+                font-weight: 550;
+            }
+
+            button:hover {
+                background: #3C6F42;
+                color: white;
+                cursor: pointer;
+            }
+
+            h2 {
+                color: white;
+                font-size: 1.6rem;
+            }
+
+            p {
+                color: white;
+                font-size: 0.4rem;
+            }
+        }
     }
 
     .sec-5 {
